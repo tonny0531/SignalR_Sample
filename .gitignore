@@ -34,13 +34,43 @@ e2e/*.map
 .DS_Store/
 
 ### DotnetCore ###
-# .NET Core build folders
-/bin
-/obj
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
 
-# Common node modules locations
-/node_modules
-/wwwroot/node_modules
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
 
 
 # End of https://www.gitignore.io/api/angular,dotnetcore
