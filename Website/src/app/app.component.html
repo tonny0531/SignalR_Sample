@@ -1,0 +1,8 @@
+Name:<input type="text" name="nickname" id="nickname" [(ngModel)]="nick">
+{{nick}}
+<br/>
+Message:<input type="text" name="message" id="message" [(ngModel)]="message">
+{{message}}
+<br/>
+<button (click)="Connect()">Connect</button>
+<button (click)="SendMessage()">Send</button>
