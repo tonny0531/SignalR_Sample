@@ -29,7 +29,10 @@ namespace Backend
         {
             services.AddControllers();
             //注入SignalR服務
-            services.AddSignalR();
+            services.AddSignalR()
+                //Redis 當背板
+                //AddStackExchangeRedis("10.5.8.63:6379")
+                ;
 
             services.AddCors(options =>
             {

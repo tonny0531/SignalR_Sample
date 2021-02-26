@@ -1,8 +1,18 @@
-Name:<input type="text" name="nickname" id="nickname" [(ngModel)]="nick">
-{{nick}}
-<br/>
-Message:<input type="text" name="message" id="message" [(ngModel)]="message">
-{{message}}
-<br/>
+<div>
+  IP:<input type="text" name="ip" id="ip" [(ngModel)]="ip">
+</div>
+<div>
+  Name:<input type="text" name="nickname" id="nickname" [(ngModel)]="nick">{{nick}}
+</div>
+<div>
+  Message:<input type="text" name="message" id="message" [(ngModel)]="message">
+  {{message}}
+</div>
+<div>
+  GroupId:<input type="text" name="groupId" id="groupId" [(ngModel)]="groupId">
+  {{groupId}}
+</div>
 <button (click)="Connect()">Connect</button>
 <button (click)="SendMessage()">Send</button>
+<button (click)="JoinGroup()">JoinGroup</button>
+<button (click)="SendToGroup()">SendGroup</button>
